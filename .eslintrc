@@ -24,24 +24,6 @@
     "@typescript-eslint/no-object-literal-type-assertion": "off",
     "@typescript-eslint/no-explicit-any": 2,
     "@typescript-eslint/camelcase": "off",
-    "@typescript-eslint/no-multi-space": "off",
-
-    "import/order": [
-      "error",
-      {
-        "newlines-between": "always",
-        "groups": ["builtin", "external", "parent", "sibling", "index"]
-      }
-    ],
-    "sort-imports": [
-      "error",
-      {
-        "ignoreCase": true,
-        "ignoreDeclarationSort": false,
-        "ignoreMemberSort": true,
-        "memberSyntaxSortOrder": ["none", "all", "single", "multiple"],
-        "allowSeparatedGroups": true
-      }
-    ]
+    "@typescript-eslint/no-multi-space": "off"
   }
 }
